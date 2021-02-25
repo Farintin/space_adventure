@@ -1,0 +1,29 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+#slides {
+    height: 100vh;
+    background-color: #000;
+}
+#slides section {
+    height: 100%;
+    width: 60vh;
+    border: 1px solid #545454;
+    border-top: 0;
+    border-bottom: 0;
+    margin: 0 auto;
+    display: none;
+}
+
+#slides section .display {
+    height: 100%;
+}
+
+
+
+.bound-check {
+    border: 1px solid red;
+}

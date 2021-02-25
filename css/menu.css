@@ -1,0 +1,5 @@
+#slides section#menu > div {
+    background-image: url(../src/img/menu/bg.png);
+    background-size: auto 100%;
+    background-position-x: center;
+}

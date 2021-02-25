@@ -1,0 +1,28 @@
+#boot .display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boot .display.one .logo {
+    width: 96px;
+}
+
+#boot .display.two {
+    flex-direction: column;
+    justify-content: space-between;
+}
+#boot .display.two .title {
+    width: 80%;
+    margin-top: 35vh;
+}
+#boot .display.two .loader {
+    width: 50%;
+    height: 2px;
+    margin-bottom: 5vh;
+}
+#boot .display.two .loader .bar {
+    width: 0%;
+    height: 100%;
+    background-color: #fff;
+}
